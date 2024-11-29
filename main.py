@@ -17,6 +17,7 @@ class AlphaManagement(QWidget):
         self.setWindowTitle('Изменение прозрачности')
 
         self.pixmap = QPixmap()
+        # здравствуйте, Ольга Владимировна
         self.image = QLabel(self)
         self.image.move(80, 60)
         self.image.resize(250, 250)
